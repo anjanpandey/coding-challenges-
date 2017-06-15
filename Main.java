@@ -1,0 +1,1 @@
+import java.util.*;import java.math.*;class Main{public static void main(String[]args){int a=0;Scanner b=new Scanner(System.in);String d=b.nextLine();for(int c=0;c<d.length();c++){if(d.charAt(c)=='T'||d.charAt(c)=='D'||d.charAt(c)=='F'||d.charAt(c)=='L')a++;}System.out.print(Math.pow(2,a));}}
